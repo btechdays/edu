@@ -1,0 +1,16 @@
+.mat-toolbar{
+    margin: -24px;
+    width: auto;
+    margin-bottom: 10px;
+    color: white;
+    background: linear-gradient(212.38deg, rgba(0, 0, 127, 0.7) 0%, rgba(0, 0, 100, 0.71) 100%),url('../../../assets/login.jpg');
+}
+
+.title-center{
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+mat-form-field{
+    padding: 5px;
+}

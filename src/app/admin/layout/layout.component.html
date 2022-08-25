@@ -1,0 +1,76 @@
+<!-- <mat-toolbar>
+    <button mat-icon-button (click)="sidenav.toggle();" class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>menu</mat-icon>
+    </button>
+    <span>My App</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+      <mat-icon>favorite</mat-icon>
+    </button>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-toolbar>
+  <mat-sidenav-container>
+      <mat-sidenav #sidenav>
+          <mat-nav-list>
+              <a mat-list-item>Home</a>
+          </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content>
+            <router-outlet></router-outlet>
+      </mat-sidenav-content>
+  </mat-sidenav-container> -->
+
+<mat-toolbar class="mat-elevation-z8">
+    <button mat-icon-button *ngIf="sidenav.mode === 'side'" (click)="sidenav.toggle()">
+        <mat-icon *ngIf="!sidenav.opened"> menu </mat-icon>
+        <mat-icon *ngIf="sidenav.opened"> close </mat-icon>
+    </button>
+    Online Job Portal
+    <span class="example-spacer"></span>
+    <button mat-mini-fab color="primary" (click)="logout()">
+        <mat-icon>exit_to_app</mat-icon>
+    </button>
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8" opened="true" mode="side">
+        <div (mouseover)="changeText=true" (mouseout)="changeText=false" (click)="fileInput.click()">
+            <input #fileInput type="file" hidden (change)="doFileInput($event)">
+            <span *ngIf="changeText"> <img class="avatar mat-elevation-z8" src="../../../assets/camera.png" /></span>
+            <span *ngIf="!changeText"> <img class="avatar mat-elevation-z8"
+                    [src]="imageToShow ? imageToShow : '../../../assets/default_profile.png'" /></span>
+
+        </div>
+        <h4 class="name">BTech Days</h4>
+        <p class="designation">Software Engineer</p>
+
+        <mat-divider></mat-divider>
+
+        <button mat-button class="menu-button" routerLinkActive="active" routerLink="/admin/dashboard">
+            <mat-icon>home</mat-icon>
+            <span>Dashboard</span>
+        </button>
+        <button mat-button class="menu-button" routerLinkActive="active" routerLink="/admin/companys">
+            <mat-icon>person</mat-icon>
+            <span>Companys</span>
+        </button>
+        <button mat-button class="menu-button" routerLinkActive="active" routerLink="/about">
+            <mat-icon>info</mat-icon>
+            <span>About</span>
+        </button>
+
+        <mat-divider></mat-divider>
+
+        <button mat-button class="menu-button" routerLink="/help">
+            <mat-icon>help</mat-icon>
+            <span>Help</span>
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content style="background: radial-gradient(red, #332042);">
+        <div class="content mat-elevation-z8" style="background: white;">
+            <router-outlet></router-outlet>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

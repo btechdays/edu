@@ -1,0 +1,16 @@
+npm install quill@1.3.6
+npm i --save-dev @types/quill
+npm i ngx-quill@15
+ngx-quill@16.2.1
+
+tsconfig
+"allowSyntheticDefaultImports": true
+
+
+npm i ngx-quill@15.0.0
+npm i --save-dev @types/quill@1.3.10 
+npm i quill
+
+
+npm i -s @angular/flex-layout @angular/cdk
+change ^12.0.0-beta.35 of flex and run npm install

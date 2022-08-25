@@ -1,0 +1,55 @@
+<body>
+    <section class="login">
+        <div class="login_box">
+            <div class="left">
+                <div class="contact">
+                    <h3>Login</h3>
+                    <form [formGroup]="loginForm">
+                        <div fxFlex fxLayout="column">
+                            <div fxLayout="row wrap">
+                                <mat-form-field appearance="outline" fxFlex>
+                                    <mat-label>Email</mat-label>
+                                    <input matInput formControlName="email" required>
+                                    <mat-error
+                                        *ngIf="loginForm.controls.email.touched && loginForm.controls.email.invalid">
+                                        <span *ngIf="loginForm.controls.email.errors.required">This field is
+                                            required.</span>
+                                        <span *ngIf="loginForm.controls.email.errors.pattern">This field is
+                                            invalid.</span>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <div fxLayout="row wrap">
+                                <mat-form-field appearance="outline" fxFlex>
+                                    <mat-label>Password</mat-label>
+                                    <input matInput formControlName="password" type="password" required>
+                                    <mat-error
+                                        *ngIf="loginForm.controls.password.touched && loginForm.controls.password.invalid">
+                                        <span *ngIf="loginForm.controls.password.errors.required">This field is
+                                            required.</span>
+                                        <span *ngIf="loginForm.controls.password.errors.pattern">This field is
+                                            invalid.</span>
+                                    </mat-error>
+                                </mat-form-field>
+                            </div>
+                            <button mat-raised-button color="primary" [disabled]="!(loginForm.valid && loginForm.dirty)"
+                                (click)="handleSubmit()">Login</button>
+                            <br>
+                            <div style="align-items: center !important;"><button mat-raised-button color="primary"
+                                    style="width: 45%;margin: 5px;" (click)="signupAction()">Signup</button>
+                                <button mat-raised-button color="primary"
+                                    style="float: right;width: 45%;margin: 5px;">Forgot Password</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right">
+                <div class="right-text">
+                    <h2>Online Job Portal</h2>
+                    <h5>EDUCATION IS THE KEY TO SUCCESS</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
