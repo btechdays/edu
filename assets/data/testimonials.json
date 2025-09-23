@@ -2,59 +2,51 @@
   "testimonials": [
     {
       "id": 1,
-      "name": "Sarah Johnson",
-      "role": "Full Stack Developer",
-      "content": "BTechDays tutorials helped me land my dream job! The step-by-step explanations are incredible and the projects are exactly what employers are looking for.",
-      "company": "Google"
+      "name": "Snehal Gunjal",
+      "role": "Software Developer",
+      "content": "Thank you for this helpful project tutorial!  It really helped me understand JSP, Servlet, and JDBC better. Grateful for your efforts! 😊",
+      "company": ""
     },
     {
       "id": 2,
-      "name": "Mike Chen",
-      "role": "Software Engineer",
-      "content": "Best programming channel on YouTube. Projects are practical and code quality is excellent. I've built my entire portfolio following these tutorials.",
-      "company": "Microsoft"
+      "name": "Mit Sagrav",
+      "role": "Software Developer",
+      "content": "Thank you for this full tutorial! I was able to understand all the instructions and methods that you have used for creating this system. Keep it up!🙌",
+      "company": ""
     },
     {
       "id": 3,
-      "name": "Emily Rodriguez",
-      "role": "Frontend Developer",
-      "content": "Clear explanations and real-world projects. Perfect for both beginners and experienced developers. The community is also very supportive.",
-      "company": "Netflix"
+      "name": "Sandali Nethmini",
+      "role": "Software Developer",
+      "content": "Thank you so much.  this series helps me to select on technical interview . 😍",
+      "company": ""
     },
     {
       "id": 4,
-      "name": "David Kumar",
-      "role": "DevOps Engineer",
-      "content": "The deployment tutorials are fantastic! Finally understood Docker and Kubernetes through BTechDays. Production-ready code every time.",
-      "company": "Amazon"
+      "name": "Santosh Patil",
+      "role": "Software Developer",
+      "content": "I have completely implemented this project. Very nice explanation and standard folder structure used for creating Spring boot project. Keep it up sir. Thanks for this project.",
+      "company": ""
     },
-    {
+        {
       "id": 5,
-      "name": "Jessica Wong",
-      "role": "Mobile Developer",
-      "content": "Excellent React Native tutorials. Built three apps following the guides and all are now in production. Quality content that actually works.",
-      "company": "Uber"
-    },
-    {
+      "name": "Bhavana M",
+      "role": "Software Developer",
+      "content": "Thank you so much. This video helped me to complete my C# project. It turned out so good that I can sleep peacefully till the submission date. Once again Thank you 🫶",
+      "company": ""
+    },{
       "id": 6,
-      "name": "Alex Thompson",
-      "role": "Backend Developer",
-      "content": "API development tutorials are top-notch. Learned microservices architecture and implemented it at work. Promoted within 6 months!",
-      "company": "Spotify"
+      "name": "Ishu Rathnayake",
+      "role": "Software Developer",
+      "content": "Absolutely grateful for this YouTube channel! The content provided here has been incredibly valuable for my campus project.🌟",
+      "company": ""
     },
     {
       "id": 7,
-      "name": "Maria Garcia",
-      "role": "UI/UX Developer",
-      "content": "The CSS animations and modern design tutorials helped me create stunning interfaces. Clients are always impressed with the results.",
-      "company": "Adobe"
-    },
-    {
-      "id": 8,
-      "name": "Ryan O'Connor",
-      "role": "Full Stack Developer",
-      "content": "From zero to hero in web development. The progressive learning approach is perfect. Now working at my dream startup thanks to BTechDays.",
-      "company": "Stripe"
+      "name": "Quyết Trần Vũ",
+      "role": "Software Developer",
+      "content": "A great video with detailed explanation, invested with enthusiasm, thank you very much because I have learned a lot of useful knowledge for applying for a job. I'm ready for your upcoming videos",
+      "company": ""
     }
   ]
 }
