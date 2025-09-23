@@ -1,0 +1,60 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "role": "Full Stack Developer",
+      "content": "BTechDays tutorials helped me land my dream job! The step-by-step explanations are incredible and the projects are exactly what employers are looking for.",
+      "company": "Google"
+    },
+    {
+      "id": 2,
+      "name": "Mike Chen",
+      "role": "Software Engineer",
+      "content": "Best programming channel on YouTube. Projects are practical and code quality is excellent. I've built my entire portfolio following these tutorials.",
+      "company": "Microsoft"
+    },
+    {
+      "id": 3,
+      "name": "Emily Rodriguez",
+      "role": "Frontend Developer",
+      "content": "Clear explanations and real-world projects. Perfect for both beginners and experienced developers. The community is also very supportive.",
+      "company": "Netflix"
+    },
+    {
+      "id": 4,
+      "name": "David Kumar",
+      "role": "DevOps Engineer",
+      "content": "The deployment tutorials are fantastic! Finally understood Docker and Kubernetes through BTechDays. Production-ready code every time.",
+      "company": "Amazon"
+    },
+    {
+      "id": 5,
+      "name": "Jessica Wong",
+      "role": "Mobile Developer",
+      "content": "Excellent React Native tutorials. Built three apps following the guides and all are now in production. Quality content that actually works.",
+      "company": "Uber"
+    },
+    {
+      "id": 6,
+      "name": "Alex Thompson",
+      "role": "Backend Developer",
+      "content": "API development tutorials are top-notch. Learned microservices architecture and implemented it at work. Promoted within 6 months!",
+      "company": "Spotify"
+    },
+    {
+      "id": 7,
+      "name": "Maria Garcia",
+      "role": "UI/UX Developer",
+      "content": "The CSS animations and modern design tutorials helped me create stunning interfaces. Clients are always impressed with the results.",
+      "company": "Adobe"
+    },
+    {
+      "id": 8,
+      "name": "Ryan O'Connor",
+      "role": "Full Stack Developer",
+      "content": "From zero to hero in web development. The progressive learning approach is perfect. Now working at my dream startup thanks to BTechDays.",
+      "company": "Stripe"
+    }
+  ]
+}

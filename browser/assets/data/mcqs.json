@@ -1,0 +1,1476 @@
+{
+  "javascript": {
+    "sets": [
+      {
+        "id": 1,
+        "title": "JavaScript Basics",
+        "description": "Variables, data types, operators, and basic syntax",
+        "questions": [
+          {
+            "id": 1,
+            "question": "How do you declare a variable in JavaScript?",
+            "options": ["var name", "variable name", "declare name", "name var"],
+            "correctAnswer": 0,
+            "explanation": "Variables in JavaScript are declared using 'var', 'let', or 'const' keywords."
+          },
+          {
+            "id": 2,
+            "question": "Which of these is NOT a primitive data type in JavaScript?",
+            "options": ["string", "boolean", "object", "number"],
+            "correctAnswer": 2,
+            "explanation": "Object is not a primitive data type. The primitive types are string, number, boolean, null, undefined, symbol, and bigint."
+          },
+          {
+            "id": 3,
+            "question": "What does '===' operator do in JavaScript?",
+            "options": ["Assignment", "Comparison without type checking", "Strict comparison with type checking", "Not equal"],
+            "correctAnswer": 2,
+            "explanation": "The '===' operator performs strict comparison, checking both value and data type."
+          },
+          {
+            "id": 4,
+            "question": "What does the 'let' keyword do in JavaScript?",
+            "options": ["Declares a constant", "Declares a block-scoped variable", "Declares a function-scoped variable", "Declares a global variable"],
+            "correctAnswer": 1,
+            "explanation": "'let' declares a block-scoped variable that can be reassigned."
+          },
+          {
+            "id": 5,
+            "question": "What is the difference between 'var' and 'let'?",
+            "options": ["No difference", "'var' is block-scoped, 'let' is function-scoped", "'let' is block-scoped, 'var' is function-scoped", "'let' cannot be reassigned"],
+            "correctAnswer": 2,
+            "explanation": "'let' has block scope while 'var' has function scope. 'let' is the modern way to declare variables."
+          },
+          {
+            "id": 6,
+            "question": "What keyword creates a constant variable?",
+            "options": ["const", "final", "readonly", "static"],
+            "correctAnswer": 0,
+            "explanation": "The 'const' keyword creates a constant variable that cannot be reassigned."
+          },
+          {
+            "id": 7,
+            "question": "Which operator is used for strict inequality in JavaScript?",
+            "options": ["!=", "!==", "<>", "=/="],
+            "correctAnswer": 1,
+            "explanation": "The '!==' operator checks for strict inequality (value and type)."
+          },
+          {
+            "id": 8,
+            "question": "What is the output of console.log(typeof null) in JavaScript?",
+            "options": ["null", "undefined", "object", "string"],
+            "correctAnswer": 2,
+            "explanation": "typeof null returns 'object' due to a historical bug in JavaScript."
+          },
+          {
+            "id": 9,
+            "question": "What is the correct way to create an object in JavaScript?",
+            "options": ["var obj = {}", "var obj = []", "var obj = ()", "var obj = <>"],
+            "correctAnswer": 0,
+            "explanation": "Objects in JavaScript are created using curly braces {}."
+          },
+          {
+            "id": 10,
+            "question": "What is the correct way to create an array in JavaScript?",
+            "options": ["var arr = {}", "var arr = []", "var arr = ()", "var arr = <>"],
+            "correctAnswer": 1,
+            "explanation": "Arrays in JavaScript are created using square brackets []."
+          },
+          {
+            "id": 11,
+            "question": "How do you write a single-line comment in JavaScript?",
+            "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", "<!-- This is a comment -->"],
+            "correctAnswer": 0,
+            "explanation": "Single-line comments in JavaScript start with '//'."
+          },
+          {
+            "id": 12,
+            "question": "How do you write a multi-line comment in JavaScript?",
+            "options": ["// This is a comment", "/* This is a comment */", "# This is a comment", "<!-- This is a comment -->"],
+            "correctAnswer": 1,
+            "explanation": "Multi-line comments in JavaScript are enclosed in /* */ symbols."
+          },
+          {
+            "id": 13,
+            "question": "What is the result of '5' + 3 in JavaScript?",
+            "options": ["8", "53", "Error", "undefined"],
+            "correctAnswer": 1,
+            "explanation": "JavaScript converts the number 3 to a string and concatenates, resulting in '53'."
+          },
+          {
+            "id": 14,
+            "question": "What is the result of '5' - 3 in JavaScript?",
+            "options": ["2", "53", "Error", "NaN"],
+            "correctAnswer": 0,
+            "explanation": "JavaScript converts the string '5' to a number and performs subtraction, resulting in 2."
+          },
+          {
+            "id": 15,
+            "question": "What does NaN stand for?",
+            "options": ["Not a Null", "Not a Number", "Null and None", "Number and Null"],
+            "correctAnswer": 1,
+            "explanation": "NaN stands for 'Not a Number' and represents an invalid number."
+          },
+          {
+            "id": 16,
+            "question": "What is the typeof operator used for?",
+            "options": ["To change variable type", "To check the data type of a variable", "To create new types", "To delete variables"],
+            "correctAnswer": 1,
+            "explanation": "The typeof operator returns a string indicating the type of the operand."
+          },
+          {
+            "id": 17,
+            "question": "What is undefined in JavaScript?",
+            "options": ["A data type", "A value representing uninitialized variable", "An error", "A function"],
+            "correctAnswer": 1,
+            "explanation": "undefined is a primitive value automatically assigned to variables that have been declared but not initialized."
+          },
+          {
+            "id": 18,
+            "question": "What is null in JavaScript?",
+            "options": ["A data type", "A value representing intentional absence of value", "An error", "A function"],
+            "correctAnswer": 1,
+            "explanation": "null is a primitive value that represents the intentional absence of any object value."
+          },
+          {
+            "id": 19,
+            "question": "Which symbol is used for string concatenation in JavaScript?",
+            "options": ["&", "+", ".", "concat"],
+            "correctAnswer": 1,
+            "explanation": "The '+' operator is used for string concatenation in JavaScript."
+          },
+          {
+            "id": 20,
+            "question": "What does console.log() do?",
+            "options": ["Creates a log file", "Displays output in the browser console", "Logs user activity", "Creates console object"],
+            "correctAnswer": 1,
+            "explanation": "console.log() displays output in the browser's developer console."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "JavaScript DOM & Events",
+        "description": "DOM manipulation and event handling in JavaScript",
+        "questions": [
+          {
+            "id": 21,
+            "question": "Which method is used to select an element by ID?",
+            "options": ["getElementById()", "selectById()", "querySelector()", "getElementByName()"],
+            "correctAnswer": 0,
+            "explanation": "getElementById() returns the element with the specified ID."
+          },
+          {
+            "id": 22,
+            "question": "How do you add an event listener to an element?",
+            "options": ["element.onClick()", "element.addEventListener()", "element.on()", "element.bind()"],
+            "correctAnswer": 1,
+            "explanation": "addEventListener() is the modern way to attach event handlers to elements."
+          },
+          {
+            "id": 23,
+            "question": "Which property changes the text content of an element?",
+            "options": ["innerHTML", "textContent", "text", "content"],
+            "correctAnswer": 1,
+            "explanation": "textContent sets or returns the text content of the specified element."
+          },
+          {
+            "id": 24,
+            "question": "How do you prevent the default behavior of an event?",
+            "options": ["event.stop()", "event.preventDefault()", "event.cancel()", "return false"],
+            "correctAnswer": 1,
+            "explanation": "preventDefault() prevents the default action associated with the event."
+          },
+          {
+            "id": 25,
+            "question": "Which method selects all elements with a specific class?",
+            "options": ["getElementsByClass()", "getElementsByClassName()", "selectByClass()", "querySelectorAll()"],
+            "correctAnswer": 1,
+            "explanation": "getElementsByClassName() returns all elements with the specified class name."
+          },
+          {
+            "id": 26,
+            "question": "How do you create a new HTML element?",
+            "options": ["document.new()", "document.createElement()", "new Element()", "document.create()"],
+            "correctAnswer": 1,
+            "explanation": "createElement() creates a new element with the specified tag name."
+          },
+          {
+            "id": 27,
+            "question": "Which property gets or sets the HTML content of an element?",
+            "options": ["textContent", "innerHTML", "content", "html"],
+            "correctAnswer": 1,
+            "explanation": "innerHTML gets or sets the HTML markup contained within the element."
+          },
+          {
+            "id": 28,
+            "question": "How do you add a CSS class to an element?",
+            "options": ["element.addClass()", "element.classList.add()", "element.class.add()", "element.addClassName()"],
+            "correctAnswer": 1,
+            "explanation": "classList.add() adds one or more class names to an element."
+          },
+          {
+            "id": 29,
+            "question": "Which event fires when the page has finished loading?",
+            "options": ["onready", "onload", "onstart", "oncomplete"],
+            "correctAnswer": 1,
+            "explanation": "The onload event fires when the page has completely loaded."
+          },
+          {
+            "id": 30,
+            "question": "How do you get the value of an input field?",
+            "options": ["input.text", "input.value", "input.content", "input.data"],
+            "correctAnswer": 1,
+            "explanation": "The value property gets or sets the value of an input field."
+          },
+          {
+            "id": 31,
+            "question": "Which method removes an element from the DOM?",
+            "options": ["element.delete()", "element.remove()", "element.destroy()", "element.clear()"],
+            "correctAnswer": 1,
+            "explanation": "The remove() method removes the element from the DOM."
+          },
+          {
+            "id": 32,
+            "question": "How do you check if an element has a specific class?",
+            "options": ["element.hasClass()", "element.classList.contains()", "element.className.includes()", "element.checkClass()"],
+            "correctAnswer": 1,
+            "explanation": "classList.contains() checks if an element has a specific class."
+          },
+          {
+            "id": 33,
+            "question": "Which event fires when a user clicks on an element?",
+            "options": ["onclick", "onpress", "onselect", "onhit"],
+            "correctAnswer": 0,
+            "explanation": "The onclick event fires when a user clicks on an element."
+          },
+          {
+            "id": 34,
+            "question": "How do you append a child element to a parent?",
+            "options": ["parent.add(child)", "parent.appendChild(child)", "parent.insert(child)", "parent.attach(child)"],
+            "correctAnswer": 1,
+            "explanation": "appendChild() appends a child element to the end of the parent's child list."
+          },
+          {
+            "id": 35,
+            "question": "Which property gets the parent element of a node?",
+            "options": ["parent", "parentNode", "parentElement", "container"],
+            "correctAnswer": 1,
+            "explanation": "parentNode returns the parent node of the specified element."
+          },
+          {
+            "id": 36,
+            "question": "How do you get all child elements of an element?",
+            "options": ["element.children", "element.childNodes", "element.kids", "element.childs"],
+            "correctAnswer": 0,
+            "explanation": "children returns a collection of all child elements."
+          },
+          {
+            "id": 37,
+            "question": "Which method finds the first element matching a CSS selector?",
+            "options": ["querySelector()", "find()", "select()", "getElement()"],
+            "correctAnswer": 0,
+            "explanation": "querySelector() returns the first element that matches the specified CSS selector."
+          },
+          {
+            "id": 38,
+            "question": "How do you set an attribute on an element?",
+            "options": ["element.setAttribute()", "element.attr()", "element.addAttribute()", "element.property()"],
+            "correctAnswer": 0,
+            "explanation": "setAttribute() sets the value of an attribute on the specified element."
+          },
+          {
+            "id": 39,
+            "question": "Which event fires when a form is submitted?",
+            "options": ["onsubmit", "onpost", "onsend", "onform"],
+            "correctAnswer": 0,
+            "explanation": "The onsubmit event fires when a form is submitted."
+          },
+          {
+            "id": 40,
+            "question": "How do you hide an element using JavaScript?",
+            "options": ["element.hide()", "element.style.display = 'none'", "element.visible = false", "element.show = false"],
+            "correctAnswer": 1,
+            "explanation": "Setting style.display to 'none' hides the element."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "JavaScript ES6+ Features",
+        "description": "Modern JavaScript features from ES6 and beyond",
+        "questions": [
+          {
+            "id": 41,
+            "question": "What is template literal syntax?",
+            "options": ["`${variable}`", "'{variable}'", "\"{variable}\"", "$(variable)"],
+            "correctAnswer": 0,
+            "explanation": "Template literals use backticks and ${} for variable interpolation."
+          },
+          {
+            "id": 42,
+            "question": "Which keyword creates a constant variable?",
+            "options": ["const", "final", "readonly", "static"],
+            "correctAnswer": 0,
+            "explanation": "The 'const' keyword creates a constant variable that cannot be reassigned."
+          },
+          {
+            "id": 43,
+            "question": "What is array destructuring?",
+            "options": ["Destroying an array", "Extracting values from array", "Sorting an array", "Filtering an array"],
+            "correctAnswer": 1,
+            "explanation": "Destructuring allows extracting values from arrays into distinct variables."
+          },
+          {
+            "id": 44,
+            "question": "Which operator spreads array elements?",
+            "options": ["...", "***", "+++", ">>>"],
+            "correctAnswer": 0,
+            "explanation": "The spread operator (...) expands array elements."
+          },
+          {
+            "id": 45,
+            "question": "What does Object.assign() do?",
+            "options": ["Creates new object", "Copies properties to target object", "Deletes object", "Compares objects"],
+            "correctAnswer": 1,
+            "explanation": "Object.assign() copies enumerable properties from source objects to a target object."
+          },
+          {
+            "id": 46,
+            "question": "Which method creates a new array with transformed elements?",
+            "options": ["forEach()", "map()", "filter()", "reduce()"],
+            "correctAnswer": 1,
+            "explanation": "map() creates a new array with the results of calling a function on every element."
+          },
+          {
+            "id": 47,
+            "question": "What is a Promise in JavaScript?",
+            "options": ["A guarantee", "An asynchronous operation", "A function type", "A variable type"],
+            "correctAnswer": 1,
+            "explanation": "A Promise represents the eventual completion or failure of an asynchronous operation."
+          },
+          {
+            "id": 48,
+            "question": "Which keyword makes a function asynchronous?",
+            "options": ["async", "await", "promise", "sync"],
+            "correctAnswer": 0,
+            "explanation": "The 'async' keyword makes a function return a Promise."
+          },
+          {
+            "id": 49,
+            "question": "What does the 'await' keyword do?",
+            "options": ["Waits for user input", "Pauses execution until Promise resolves", "Creates a delay", "Waits for DOM load"],
+            "correctAnswer": 1,
+            "explanation": "'await' pauses function execution until the Promise is resolved."
+          },
+          {
+            "id": 50,
+            "question": "Which method filters array elements?",
+            "options": ["filter()", "select()", "where()", "choose()"],
+            "correctAnswer": 0,
+            "explanation": "filter() creates a new array with elements that pass the test function."
+          },
+          {
+            "id": 51,
+            "question": "What is object destructuring?",
+            "options": ["Deleting object properties", "Extracting properties into variables", "Creating new objects", "Copying objects"],
+            "correctAnswer": 1,
+            "explanation": "Object destructuring extracts properties from objects into distinct variables."
+          },
+          {
+            "id": 52,
+            "question": "Which method reduces array to single value?",
+            "options": ["reduce()", "sum()", "total()", "combine()"],
+            "correctAnswer": 0,
+            "explanation": "reduce() executes a reducer function on each element, resulting in a single value."
+          },
+          {
+            "id": 53,
+            "question": "What are default parameters?",
+            "options": ["Required parameters", "Parameters with default values", "Global parameters", "Hidden parameters"],
+            "correctAnswer": 1,
+            "explanation": "Default parameters allow functions to have default values when no argument is provided."
+          },
+          {
+            "id": 54,
+            "question": "Which creates a class in ES6?",
+            "options": ["class MyClass {}", "function MyClass() {}", "new Class()", "define MyClass {}"],
+            "correctAnswer": 0,
+            "explanation": "ES6 introduced the 'class' keyword for creating classes."
+          },
+          {
+            "id": 55,
+            "question": "What is the rest operator?",
+            "options": ["...", "***", "+++", "---"],
+            "correctAnswer": 0,
+            "explanation": "The rest operator (...) collects remaining elements into an array."
+          },
+          {
+            "id": 56,
+            "question": "Which method checks if all elements pass a test?",
+            "options": ["every()", "all()", "check()", "test()"],
+            "correctAnswer": 0,
+            "explanation": "every() tests whether all elements pass the provided function test."
+          },
+          {
+            "id": 57,
+            "question": "What is a generator function?",
+            "options": ["A function that creates objects", "A function that can pause and resume", "A function that generates random numbers", "A function that creates arrays"],
+            "correctAnswer": 1,
+            "explanation": "Generator functions can pause execution and resume later, yielding values."
+          },
+          {
+            "id": 58,
+            "question": "Which symbol creates a generator function?",
+            "options": ["function*", "function+", "generator", "function~"],
+            "correctAnswer": 0,
+            "explanation": "function* syntax creates a generator function."
+          },
+          {
+            "id": 59,
+            "question": "What does Set store?",
+            "options": ["Key-value pairs", "Unique values", "Arrays", "Functions"],
+            "correctAnswer": 1,
+            "explanation": "Set stores unique values of any type."
+          },
+          {
+            "id": 60,
+            "question": "Which creates a Map?",
+            "options": ["new Map()", "new HashMap()", "Map.create()", "{}"],
+            "correctAnswer": 0,
+            "explanation": "new Map() creates a new Map object for storing key-value pairs."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "JavaScript Async & Error Handling",
+        "description": "Asynchronous programming and error handling in JavaScript",
+        "questions": [
+          {
+            "id": 61,
+            "question": "Which method handles Promise rejection?",
+            "options": ["then()", "catch()", "finally()", "error()"],
+            "correctAnswer": 1,
+            "explanation": "catch() handles rejected promises."
+          },
+          {
+            "id": 62,
+            "question": "What executes regardless of Promise outcome?",
+            "options": ["then()", "catch()", "finally()", "always()"],
+            "correctAnswer": 2,
+            "explanation": "finally() executes regardless of whether the promise is fulfilled or rejected."
+          },
+          {
+            "id": 63,
+            "question": "Which creates a resolved Promise?",
+            "options": ["Promise.resolve()", "Promise.success()", "Promise.complete()", "Promise.done()"],
+            "correctAnswer": 0,
+            "explanation": "Promise.resolve() creates a resolved promise with the given value."
+          },
+          {
+            "id": 64,
+            "question": "How do you handle errors in try-catch?",
+            "options": ["try-catch-finally", "try-error", "catch-throw", "error-handle"],
+            "correctAnswer": 0,
+            "explanation": "try-catch-finally is used for error handling in JavaScript."
+          },
+          {
+            "id": 65,
+            "question": "Which method waits for all Promises to resolve?",
+            "options": ["Promise.all()", "Promise.wait()", "Promise.every()", "Promise.complete()"],
+            "correctAnswer": 0,
+            "explanation": "Promise.all() waits for all promises to resolve or any to reject."
+          },
+          {
+            "id": 66,
+            "question": "What does setTimeout() do?",
+            "options": ["Sets system time", "Delays function execution", "Creates timeout error", "Measures time"],
+            "correctAnswer": 1,
+            "explanation": "setTimeout() executes a function after a specified delay."
+          },
+          {
+            "id": 67,
+            "question": "Which creates a rejected Promise?",
+            "options": ["Promise.reject()", "Promise.fail()", "Promise.error()", "Promise.deny()"],
+            "correctAnswer": 0,
+            "explanation": "Promise.reject() creates a rejected promise with the given reason."
+          },
+          {
+            "id": 68,
+            "question": "What is callback hell?",
+            "options": ["Error in callback", "Nested callback functions", "Callback timeout", "Missing callback"],
+            "correctAnswer": 1,
+            "explanation": "Callback hell refers to deeply nested callback functions that are hard to read."
+          },
+          {
+            "id": 69,
+            "question": "Which method executes function repeatedly?",
+            "options": ["setInterval()", "setTimeout()", "repeat()", "loop()"],
+            "correctAnswer": 0,
+            "explanation": "setInterval() calls a function repeatedly at specified intervals."
+          },
+          {
+            "id": 70,
+            "question": "How do you throw a custom error?",
+            "options": ["throw new Error()", "error new Error()", "create Error()", "make Error()"],
+            "correctAnswer": 0,
+            "explanation": "throw new Error() creates and throws a custom error."
+          },
+          {
+            "id": 71,
+            "question": "Which method races multiple Promises?",
+            "options": ["Promise.race()", "Promise.first()", "Promise.fastest()", "Promise.compete()"],
+            "correctAnswer": 0,
+            "explanation": "Promise.race() returns when the first promise settles (resolves or rejects)."
+          },
+          {
+            "id": 72,
+            "question": "What is async/await syntax for?",
+            "options": ["Making code synchronous", "Simplifying Promise handling", "Creating delays", "Error handling"],
+            "correctAnswer": 1,
+            "explanation": "async/await provides a cleaner syntax for working with Promises."
+          },
+          {
+            "id": 73,
+            "question": "Which clears a timeout?",
+            "options": ["clearTimeout()", "cancelTimeout()", "stopTimeout()", "removeTimeout()"],
+            "correctAnswer": 0,
+            "explanation": "clearTimeout() cancels a timeout previously set with setTimeout()."
+          },
+          {
+            "id": 74,
+            "question": "What happens if you don't catch a rejected Promise?",
+            "options": ["Nothing", "Unhandled rejection warning", "Program crashes", "Promise is ignored"],
+            "correctAnswer": 1,
+            "explanation": "Unhandled promise rejections generate warnings and may crash the application."
+          },
+          {
+            "id": 75,
+            "question": "Which method settles all Promises regardless of outcome?",
+            "options": ["Promise.allSettled()", "Promise.complete()", "Promise.finish()", "Promise.done()"],
+            "correctAnswer": 0,
+            "explanation": "Promise.allSettled() waits for all promises to settle, whether resolved or rejected."
+          },
+          {
+            "id": 76,
+            "question": "How do you convert callback to Promise?",
+            "options": ["Wrap in new Promise()", "Use Promise.callback()", "Use async keyword", "Use await keyword"],
+            "correctAnswer": 0,
+            "explanation": "Wrapping callback code in new Promise() converts it to Promise-based code."
+          },
+          {
+            "id": 77,
+            "question": "What is the Event Loop?",
+            "options": ["A programming loop", "JavaScript's concurrency model", "An error handling mechanism", "A type of function"],
+            "correctAnswer": 1,
+            "explanation": "The Event Loop is JavaScript's concurrency model that handles asynchronous operations."
+          },
+          {
+            "id": 78,
+            "question": "Which queue has higher priority?",
+            "options": ["Callback queue", "Microtask queue", "Event queue", "Task queue"],
+            "correctAnswer": 1,
+            "explanation": "The microtask queue (promises) has higher priority than the callback queue."
+          },
+          {
+            "id": 79,
+            "question": "What is a microtask?",
+            "options": ["Small function", "Promise callback", "Timer function", "Event handler"],
+            "correctAnswer": 1,
+            "explanation": "Microtasks are promise callbacks that have higher priority in the event loop."
+          },
+          {
+            "id": 80,
+            "question": "Which method chains multiple async operations?",
+            "options": ["then()", "chain()", "next()", "after()"],
+            "correctAnswer": 0,
+            "explanation": "then() is used to chain multiple Promise operations."
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "JavaScript Advanced Topics",
+        "description": "Advanced JavaScript concepts and patterns",
+        "questions": [
+          {
+            "id": 81,
+            "question": "What is prototypal inheritance?",
+            "options": ["Class-based inheritance", "Objects inherit from other objects", "Function inheritance", "Module inheritance"],
+            "correctAnswer": 1,
+            "explanation": "In JavaScript, objects can inherit directly from other objects through the prototype chain."
+          },
+          {
+            "id": 82,
+            "question": "Which creates a property descriptor?",
+            "options": ["Object.defineProperty()", "Object.createProperty()", "Object.setProperty()", "Object.addProperty()"],
+            "correctAnswer": 0,
+            "explanation": "Object.defineProperty() defines or modifies a property with detailed configuration."
+          },
+          {
+            "id": 83,
+            "question": "What is hoisting in JavaScript?",
+            "options": ["Moving variables up", "Variable and function declarations moved to top", "Lifting functions", "Raising scope"],
+            "correctAnswer": 1,
+            "explanation": "Hoisting is JavaScript's behavior of moving declarations to the top of their scope."
+          },
+          {
+            "id": 84,
+            "question": "Which method binds a function to an object?",
+            "options": ["bind()", "attach()", "connect()", "link()"],
+            "correctAnswer": 0,
+            "explanation": "bind() creates a new function with 'this' bound to the provided object."
+          },
+          {
+            "id": 85,
+            "question": "What is the Module pattern?",
+            "options": ["Importing modules", "Encapsulating code in closures", "Creating classes", "Organizing files"],
+            "correctAnswer": 1,
+            "explanation": "The Module pattern uses closures to create encapsulated, reusable code."
+          },
+          {
+            "id": 86,
+            "question": "Which method calls a function with specific 'this'?",
+            "options": ["call()", "invoke()", "execute()", "run()"],
+            "correctAnswer": 0,
+            "explanation": "call() invokes a function with a specific 'this' value and arguments."
+          },
+          {
+            "id": 87,
+            "question": "What is currying in JavaScript?",
+            "options": ["Spicing up code", "Transforming multi-argument function", "Creating arrays", "Function decoration"],
+            "correctAnswer": 1,
+            "explanation": "Currying transforms a function with multiple arguments into a sequence of single-argument functions."
+          },
+          {
+            "id": 88,
+            "question": "Which creates an object without prototype?",
+            "options": ["Object.create(null)", "new Object()", "{}", "Object.make()"],
+            "correctAnswer": 0,
+            "explanation": "Object.create(null) creates an object without inheriting from Object.prototype."
+          },
+          {
+            "id": 89,
+            "question": "What is memoization?",
+            "options": ["Memory management", "Caching function results", "Creating memories", "Storing variables"],
+            "correctAnswer": 1,
+            "explanation": "Memoization is an optimization technique that caches function results."
+          },
+          {
+            "id": 90,
+            "question": "Which method applies function with array arguments?",
+            "options": ["apply()", "spread()", "array()", "expand()"],
+            "correctAnswer": 0,
+            "explanation": "apply() calls a function with 'this' value and arguments provided as an array."
+          },
+          {
+            "id": 91,
+            "question": "What is a higher-order function?",
+            "options": ["Complex function", "Function that operates on other functions", "Important function", "Top-level function"],
+            "correctAnswer": 1,
+            "explanation": "A higher-order function takes other functions as arguments or returns functions."
+          },
+          {
+            "id": 92,
+            "question": "Which pattern prevents global pollution?",
+            "options": ["IIFE", "Constructor", "Prototype", "Factory"],
+            "correctAnswer": 0,
+            "explanation": "IIFE (Immediately Invoked Function Expression) creates a private scope to avoid global pollution."
+          },
+          {
+            "id": 93,
+            "question": "What is the Revealing Module pattern?",
+            "options": ["Showing all methods", "Exposing only public methods", "Revealing secrets", "Opening modules"],
+            "correctAnswer": 1,
+            "explanation": "The Revealing Module pattern exposes only the methods and variables you want to be public."
+          },
+          {
+            "id": 94,
+            "question": "Which method freezes an object?",
+            "options": ["Object.freeze()", "Object.lock()", "Object.immutable()", "Object.seal()"],
+            "correctAnswer": 0,
+            "explanation": "Object.freeze() prevents modification of existing property values and addition of new properties."
+          },
+          {
+            "id": 95,
+            "question": "What is the difference between call() and apply()?",
+            "options": ["No difference", "call() takes individual arguments, apply() takes array", "apply() is faster", "call() is newer"],
+            "correctAnswer": 1,
+            "explanation": "call() takes arguments individually, while apply() takes them as an array."
+          },
+          {
+            "id": 96,
+            "question": "Which method gets property names of object?",
+            "options": ["Object.keys()", "Object.names()", "Object.properties()", "Object.fields()"],
+            "correctAnswer": 0,
+            "explanation": "Object.keys() returns an array of object's own enumerable property names."
+          },
+          {
+            "id": 97,
+            "question": "What is a pure function?",
+            "options": ["Clean function", "Function without side effects", "Simple function", "Perfect function"],
+            "correctAnswer": 1,
+            "explanation": "A pure function has no side effects and always returns the same output for the same input."
+          },
+          {
+            "id": 98,
+            "question": "Which creates a shallow copy of object?",
+            "options": ["Object.assign()", "Object.copy()", "Object.clone()", "Object.duplicate()"],
+            "correctAnswer": 0,
+            "explanation": "Object.assign() creates a shallow copy by copying enumerable properties."
+          },
+          {
+            "id": 99,
+            "question": "What is debouncing?",
+            "options": ["Removing bugs", "Delaying function execution", "Bouncing animation", "Error handling"],
+            "correctAnswer": 1,
+            "explanation": "Debouncing delays function execution until after a specified time has passed since the last call."
+          },
+          {
+            "id": 100,
+            "question": "Which method checks if property exists?",
+            "options": ["hasOwnProperty()", "propertyExists()", "hasProperty()", "containsProperty()"],
+            "correctAnswer": 0,
+            "explanation": "hasOwnProperty() checks if an object has a specific property as its own (not inherited)."
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "JavaScript Functions & Scope",
+        "description": "Function declarations, expressions, scope, and closures",
+        "questions": [
+          {
+            "id": 101,
+            "question": "What is function hoisting?",
+            "options": ["Functions are moved to top of scope", "Functions are deleted", "Functions are copied", "Functions are compressed"],
+            "correctAnswer": 0,
+            "explanation": "Function declarations are hoisted to the top of their containing scope."
+          },
+          {
+            "id": 102,
+            "question": "What is the difference between function declaration and expression?",
+            "options": ["No difference", "Declarations are hoisted, expressions are not", "Expressions are faster", "Declarations are deprecated"],
+            "correctAnswer": 1,
+            "explanation": "Function declarations are fully hoisted, while function expressions are not hoisted."
+          },
+          {
+            "id": 103,
+            "question": "What is lexical scope?",
+            "options": ["Dictionary scope", "Scope determined by where variables are declared", "Global scope only", "Function scope only"],
+            "correctAnswer": 1,
+            "explanation": "Lexical scope means scope is determined by where variables and blocks of scope are authored."
+          },
+          {
+            "id": 104,
+            "question": "What happens when you call a function with fewer arguments than parameters?",
+            "options": ["Error", "undefined for missing parameters", "null for missing parameters", "0 for missing parameters"],
+            "correctAnswer": 1,
+            "explanation": "Missing parameters are set to undefined."
+          },
+          {
+            "id": 105,
+            "question": "What is an IIFE?",
+            "options": ["Immediately Invoked Function Expression", "Integrated Interface Function Element", "Internal Input Function Event", "Independent Instance Function Entity"],
+            "correctAnswer": 0,
+            "explanation": "IIFE stands for Immediately Invoked Function Expression - a function that runs as soon as it's defined."
+          },
+          {
+            "id": 106,
+            "question": "Which creates a function expression?",
+            "options": ["function foo() {}", "var foo = function() {}", "def foo():", "function: foo() {}"],
+            "correctAnswer": 1,
+            "explanation": "var foo = function() {} creates a function expression assigned to a variable."
+          },
+          {
+            "id": 107,
+            "question": "What is the arguments object?",
+            "options": ["Array of function parameters", "Array-like object containing all arguments", "Function metadata", "Error object"],
+            "correctAnswer": 1,
+            "explanation": "The arguments object is an array-like object available within functions containing all passed arguments."
+          },
+          {
+            "id": 108,
+            "question": "What does 'use strict' do?",
+            "options": ["Makes code faster", "Enables strict mode with stricter error checking", "Compresses code", "Enables debugging"],
+            "correctAnswer": 1,
+            "explanation": "'use strict' enables strict mode, which catches more errors and prevents certain unsafe actions."
+          },
+          {
+            "id": 109,
+            "question": "What is a named function expression?",
+            "options": ["Function with a name property", "var name = function name() {}", "function with arguments", "Anonymous function"],
+            "correctAnswer": 1,
+            "explanation": "A named function expression has a name that's only accessible within the function itself."
+          },
+          {
+            "id": 110,
+            "question": "What is function scope?",
+            "options": ["Variables declared in function are accessible anywhere", "Variables declared in function are only accessible within that function", "Global variables only", "Block-level variables"],
+            "correctAnswer": 1,
+            "explanation": "Function scope means variables declared within a function are only accessible within that function."
+          },
+          {
+            "id": 111,
+            "question": "What happens with nested functions and scope?",
+            "options": ["Inner functions cannot access outer variables", "Inner functions can access outer function variables", "Only global variables are accessible", "Variables are shared globally"],
+            "correctAnswer": 1,
+            "explanation": "Inner functions have access to variables in their outer (enclosing) function scope."
+          },
+          {
+            "id": 112,
+            "question": "What is the temporal dead zone?",
+            "options": ["Time zone for dates", "Period where let/const variables exist but cannot be accessed", "Function execution time", "Memory cleanup phase"],
+            "correctAnswer": 1,
+            "explanation": "The temporal dead zone is the time between entering scope and the variable declaration being reached."
+          },
+          {
+            "id": 113,
+            "question": "What is function.length property?",
+            "options": ["Number of lines in function", "Number of parameters expected by function", "Memory size of function", "Execution time of function"],
+            "correctAnswer": 1,
+            "explanation": "The length property indicates the number of parameters expected by the function."
+          },
+          {
+            "id": 114,
+            "question": "What is a callback function?",
+            "options": ["Function that returns a value", "Function passed as argument to another function", "Function that calls itself", "Function with no parameters"],
+            "correctAnswer": 1,
+            "explanation": "A callback function is a function passed into another function as an argument."
+          },
+          {
+            "id": 115,
+            "question": "What is function recursion?",
+            "options": ["Function calling another function", "Function calling itself", "Function returning multiple values", "Function with loops"],
+            "correctAnswer": 1,
+            "explanation": "Recursion occurs when a function calls itself, typically with different parameters."
+          },
+          {
+            "id": 116,
+            "question": "What is the difference between call(), apply(), and bind()?",
+            "options": ["No difference", "call() and apply() invoke immediately, bind() returns new function", "Only syntax difference", "bind() is deprecated"],
+            "correctAnswer": 1,
+            "explanation": "call() and apply() invoke the function immediately, while bind() returns a new function with bound context."
+          },
+          {
+            "id": 117,
+            "question": "What is method chaining?",
+            "options": ["Linking methods together by returning 'this'", "Creating method copies", "Method inheritance", "Method overloading"],
+            "correctAnswer": 0,
+            "explanation": "Method chaining allows multiple method calls on the same object by returning 'this'."
+          },
+          {
+            "id": 118,
+            "question": "What is a pure function?",
+            "options": ["Function without bugs", "Function that always returns same output for same input with no side effects", "Function with one parameter", "Function that returns undefined"],
+            "correctAnswer": 1,
+            "explanation": "A pure function always produces the same output for the same input and has no side effects."
+          },
+          {
+            "id": 119,
+            "question": "What is function overloading in JavaScript?",
+            "options": ["Not supported natively", "Multiple functions with same name", "Function with many parameters", "Function calling multiple functions"],
+            "correctAnswer": 0,
+            "explanation": "JavaScript doesn't support true function overloading - the last function definition overwrites previous ones."
+          },
+          {
+            "id": 120,
+            "question": "What is the 'new' operator used for?",
+            "options": ["Creating new variables", "Creating new objects from constructor functions", "Creating new functions", "Creating new arrays"],
+            "correctAnswer": 1,
+            "explanation": "The 'new' operator creates a new object instance from a constructor function."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "JavaScript Objects & Prototypes",
+        "description": "Object creation, prototypes, inheritance, and methods",
+        "questions": [
+          {
+            "id": 121,
+            "question": "What is a prototype in JavaScript?",
+            "options": ["A template object", "Object from which other objects inherit properties", "Function parameter", "Variable type"],
+            "correctAnswer": 1,
+            "explanation": "A prototype is an object from which other objects inherit properties and methods."
+          },
+          {
+            "id": 122,
+            "question": "How do you add a method to all instances of a constructor?",
+            "options": ["Constructor.method = function() {}", "Constructor.prototype.method = function() {}", "new Constructor.method()", "Constructor.add.method()"],
+            "correctAnswer": 1,
+            "explanation": "Adding methods to Constructor.prototype makes them available to all instances."
+          },
+          {
+            "id": 123,
+            "question": "What is the prototype chain?",
+            "options": ["Chain of function calls", "Linked list of prototypes for inheritance", "Array of objects", "String of properties"],
+            "correctAnswer": 1,
+            "explanation": "The prototype chain is a series of links between objects used for inheritance."
+          },
+          {
+            "id": 124,
+            "question": "What does Object.create() do?",
+            "options": ["Creates empty object", "Creates object with specified prototype", "Creates array", "Creates function"],
+            "correctAnswer": 1,
+            "explanation": "Object.create() creates a new object with the specified prototype object."
+          },
+          {
+            "id": 125,
+            "question": "What is the difference between __proto__ and prototype?",
+            "options": ["No difference", "__proto__ is instance property, prototype is constructor property", "prototype is deprecated", "__proto__ is faster"],
+            "correctAnswer": 1,
+            "explanation": "__proto__ is a property of object instances, prototype is a property of constructor functions."
+          },
+          {
+            "id": 126,
+            "question": "What is Object.getPrototypeOf()?",
+            "options": ["Gets object properties", "Gets the prototype of an object", "Gets object methods", "Gets object constructor"],
+            "correctAnswer": 1,
+            "explanation": "Object.getPrototypeOf() returns the prototype of the specified object."
+          },
+          {
+            "id": 127,
+            "question": "How do you check if an object has a property?",
+            "options": ["obj.hasProperty()", "obj.hasOwnProperty()", "obj.contains()", "obj.includes()"],
+            "correctAnswer": 1,
+            "explanation": "hasOwnProperty() checks if an object has a specific property as its own (not inherited)."
+          },
+          {
+            "id": 128,
+            "question": "What is Object.keys()?",
+            "options": ["Gets all object properties", "Gets enumerable own property names", "Gets object methods", "Gets object values"],
+            "correctAnswer": 1,
+            "explanation": "Object.keys() returns an array of an object's own enumerable property names."
+          },
+          {
+            "id": 129,
+            "question": "What is Object.values()?",
+            "options": ["Gets property names", "Gets property values", "Gets methods", "Gets prototype"],
+            "correctAnswer": 1,
+            "explanation": "Object.values() returns an array of an object's own enumerable property values."
+          },
+          {
+            "id": 130,
+            "question": "What is Object.entries()?",
+            "options": ["Gets property count", "Gets [key, value] pairs", "Gets method list", "Gets object type"],
+            "correctAnswer": 1,
+            "explanation": "Object.entries() returns an array of [key, value] pairs for each enumerable property."
+          },
+          {
+            "id": 131,
+            "question": "What is a constructor function?",
+            "options": ["Function that builds objects", "Function used with 'new' to create objects", "Function that destroys objects", "Function with no return"],
+            "correctAnswer": 1,
+            "explanation": "A constructor function is used with 'new' to create and initialize objects."
+          },
+          {
+            "id": 132,
+            "question": "What happens if you forget 'new' with constructor?",
+            "options": ["Error", "'this' refers to global object", "Object created normally", "Function returns null"],
+            "correctAnswer": 1,
+            "explanation": "Without 'new', 'this' refers to the global object (or undefined in strict mode)."
+          },
+          {
+            "id": 133,
+            "question": "What is Object.assign()?",
+            "options": ["Assigns object to variable", "Copies properties from source to target object", "Creates new object", "Deletes object properties"],
+            "correctAnswer": 1,
+            "explanation": "Object.assign() copies enumerable properties from one or more source objects to a target."
+          },
+          {
+            "id": 134,
+            "question": "What is the 'in' operator?",
+            "options": ["Checks if value is in array", "Checks if property exists in object", "Checks if object is in array", "Checks if function is in object"],
+            "correctAnswer": 1,
+            "explanation": "The 'in' operator checks if a property exists in an object (including inherited properties)."
+          },
+          {
+            "id": 135,
+            "question": "What is Object.freeze()?",
+            "options": ["Stops object execution", "Prevents modification of object properties", "Copies object", "Saves object to memory"],
+            "correctAnswer": 1,
+            "explanation": "Object.freeze() prevents modification of existing properties and addition of new properties."
+          },
+          {
+            "id": 136,
+            "question": "What is Object.seal()?",
+            "options": ["Hides object", "Prevents addition/deletion of properties but allows modification", "Copies object", "Encrypts object"],
+            "correctAnswer": 1,
+            "explanation": "Object.seal() prevents adding or removing properties but allows modification of existing ones."
+          },
+          {
+            "id": 137,
+            "question": "What is property descriptor?",
+            "options": ["Property name", "Object describing property configuration", "Property value", "Property type"],
+            "correctAnswer": 1,
+            "explanation": "A property descriptor is an object that describes the configuration of a property."
+          },
+          {
+            "id": 138,
+            "question": "What is Object.defineProperty()?",
+            "options": ["Creates property", "Defines or modifies property with detailed configuration", "Deletes property", "Copies property"],
+            "correctAnswer": 1,
+            "explanation": "Object.defineProperty() defines a new property or modifies an existing one with detailed configuration."
+          },
+          {
+            "id": 139,
+            "question": "What are getters and setters?",
+            "options": ["Array methods", "Functions that get/set property values", "Object properties", "Constructor methods"],
+            "correctAnswer": 1,
+            "explanation": "Getters and setters are functions that allow you to define how properties are accessed and modified."
+          },
+          {
+            "id": 140,
+            "question": "What is instanceof operator?",
+            "options": ["Checks object type", "Checks if object is instance of constructor", "Checks object size", "Checks object methods"],
+            "correctAnswer": 1,
+            "explanation": "instanceof checks if an object is an instance of a specific constructor function."
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "JavaScript Arrays & Iteration",
+        "description": "Array methods, iteration techniques, and functional programming",
+        "questions": [
+          {
+            "id": 141,
+            "question": "What does Array.isArray() do?",
+            "options": ["Creates array", "Checks if value is an array", "Gets array length", "Sorts array"],
+            "correctAnswer": 1,
+            "explanation": "Array.isArray() determines whether the passed value is an array."
+          },
+          {
+            "id": 142,
+            "question": "What is the difference between map() and forEach()?",
+            "options": ["No difference", "map() returns new array, forEach() returns undefined", "forEach() is faster", "map() modifies original array"],
+            "correctAnswer": 1,
+            "explanation": "map() creates and returns a new array, while forEach() returns undefined."
+          },
+          {
+            "id": 143,
+            "question": "What does Array.from() do?",
+            "options": ["Copies array", "Creates array from array-like or iterable object", "Merges arrays", "Filters array"],
+            "correctAnswer": 1,
+            "explanation": "Array.from() creates a new Array instance from an array-like or iterable object."
+          },
+          {
+            "id": 144,
+            "question": "What is the spread operator with arrays?",
+            "options": ["Deletes elements", "Expands array elements", "Sorts elements", "Reverses elements"],
+            "correctAnswer": 1,
+            "explanation": "The spread operator (...) expands array elements in places where multiple elements are expected."
+          },
+          {
+            "id": 145,
+            "question": "What does filter() method return?",
+            "options": ["Modified original array", "New array with elements that pass the test", "Boolean value", "Number of matches"],
+            "correctAnswer": 1,
+            "explanation": "filter() returns a new array containing only elements that pass the provided test function."
+          },
+          {
+            "id": 146,
+            "question": "What does reduce() method do?",
+            "options": ["Reduces array size", "Executes reducer function on each element, resulting in single value", "Removes duplicates", "Sorts array"],
+            "correctAnswer": 1,
+            "explanation": "reduce() executes a reducer function on each array element, returning a single output value."
+          },
+          {
+            "id": 147,
+            "question": "What is the difference between find() and filter()?",
+            "options": ["No difference", "find() returns first match, filter() returns all matches", "filter() is deprecated", "find() is faster"],
+            "correctAnswer": 1,
+            "explanation": "find() returns the first element that matches, filter() returns all elements that match."
+          },
+          {
+            "id": 148,
+            "question": "What does some() method return?",
+            "options": ["Some elements", "true if at least one element passes test", "Number of passing elements", "Array of passing elements"],
+            "correctAnswer": 1,
+            "explanation": "some() returns true if at least one element passes the provided test function."
+          },
+          {
+            "id": 149,
+            "question": "What does every() method return?",
+            "options": ["All elements", "true if all elements pass test", "Number of elements", "Last element"],
+            "correctAnswer": 1,
+            "explanation": "every() returns true if all elements pass the provided test function."
+          },
+          {
+            "id": 150,
+            "question": "What is Array.concat()?",
+            "options": ["Connects arrays", "Merges arrays into new array", "Compares arrays", "Counts array elements"],
+            "correctAnswer": 1,
+            "explanation": "concat() merges two or more arrays and returns a new array."
+          },
+          {
+            "id": 151,
+            "question": "What does slice() method do?",
+            "options": ["Cuts array permanently", "Returns shallow copy of portion of array", "Removes elements", "Adds elements"],
+            "correctAnswer": 1,
+            "explanation": "slice() returns a shallow copy of a portion of an array without modifying the original."
+          },
+          {
+            "id": 152,
+            "question": "What does splice() method do?",
+            "options": ["Copies array section", "Adds/removes elements from array", "Joins arrays", "Splits array"],
+            "correctAnswer": 1,
+            "explanation": "splice() changes array contents by removing/replacing existing elements and/or adding new ones."
+          },
+          {
+            "id": 153,
+            "question": "What is the difference between slice() and splice()?",
+            "options": ["No difference", "slice() doesn't modify original, splice() does", "splice() is deprecated", "slice() is faster"],
+            "correctAnswer": 1,
+            "explanation": "slice() returns a copy without modifying original, splice() modifies the original array."
+          },
+          {
+            "id": 154,
+            "question": "What does join() method return?",
+            "options": ["Merged array", "String with all array elements joined", "New array", "Array length"],
+            "correctAnswer": 1,
+            "explanation": "join() creates and returns a string by concatenating all array elements."
+          },
+          {
+            "id": 155,
+            "question": "What does reverse() method do?",
+            "options": ["Creates reversed copy", "Reverses array in place", "Sorts in reverse", "Returns last element"],
+            "correctAnswer": 1,
+            "explanation": "reverse() reverses the array elements in place and returns the reference to the same array."
+          },
+          {
+            "id": 156,
+            "question": "What does sort() method do by default?",
+            "options": ["Sorts numerically", "Sorts alphabetically (as strings)", "Sorts by length", "Sorts randomly"],
+            "correctAnswer": 1,
+            "explanation": "sort() converts elements to strings and sorts them alphabetically by default."
+          },
+          {
+            "id": 157,
+            "question": "What is indexOf() method?",
+            "options": ["Gets element at index", "Returns first index of element", "Gets array length", "Checks if element exists"],
+            "correctAnswer": 1,
+            "explanation": "indexOf() returns the first index at which a given element can be found in the array."
+          },
+          {
+            "id": 158,
+            "question": "What does includes() method return?",
+            "options": ["Element index", "true/false if array includes element", "Element value", "Element count"],
+            "correctAnswer": 1,
+            "explanation": "includes() returns true if the array contains the specified element, false otherwise."
+          },
+          {
+            "id": 159,
+            "question": "What is Array destructuring?",
+            "options": ["Destroying arrays", "Extracting array values into variables", "Removing array elements", "Merging arrays"],
+            "correctAnswer": 1,
+            "explanation": "Array destructuring allows extracting array values into distinct variables in a single statement."
+          },
+          {
+            "id": 160,
+            "question": "What does flat() method do?",
+            "options": ["Makes array empty", "Flattens nested arrays", "Sorts array", "Removes duplicates"],
+            "correctAnswer": 1,
+            "explanation": "flat() creates a new array with sub-array elements concatenated into it recursively."
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "title": "JavaScript Modules & Classes",
+        "description": "ES6 modules, import/export, class syntax and inheritance",
+        "questions": [
+          {
+            "id": 161,
+            "question": "What is ES6 module syntax?",
+            "options": ["require/module.exports", "import/export", "include/define", "load/save"],
+            "correctAnswer": 1,
+            "explanation": "ES6 uses import/export syntax for module system."
+          },
+          {
+            "id": 162,
+            "question": "What is default export?",
+            "options": ["Required export", "Main export from module", "First export", "Last export"],
+            "correctAnswer": 1,
+            "explanation": "Default export is the main export from a module, imported without curly braces."
+          },
+          {
+            "id": 163,
+            "question": "How do you import everything from a module?",
+            "options": ["import all from 'module'", "import * as name from 'module'", "import {*} from 'module'", "import everything from 'module'"],
+            "correctAnswer": 1,
+            "explanation": "import * as name imports all exports from a module into a namespace object."
+          },
+          {
+            "id": 164,
+            "question": "What is named export?",
+            "options": ["Export with specific name", "Export that must be imported with exact name", "Export with alias", "Export with description"],
+            "correctAnswer": 1,
+            "explanation": "Named exports must be imported using the exact exported name (or with alias)."
+          },
+          {
+            "id": 165,
+            "question": "What is class syntax in ES6?",
+            "options": ["function Class()", "class ClassName {}", "new Class()", "define Class"],
+            "correctAnswer": 1,
+            "explanation": "ES6 classes use the 'class' keyword followed by the class name and curly braces."
+          },
+          {
+            "id": 166,
+            "question": "What is a constructor in class?",
+            "options": ["Method that creates objects", "Special method called when instance is created", "Method that destroys objects", "Method that copies objects"],
+            "correctAnswer": 1,
+            "explanation": "Constructor is a special method that's automatically called when a new instance is created."
+          },
+          {
+            "id": 167,
+            "question": "What is class inheritance?",
+            "options": ["Class copying", "Class extending another class with 'extends'", "Class deletion", "Class merging"],
+            "correctAnswer": 1,
+            "explanation": "Class inheritance allows a class to inherit properties and methods from another class using 'extends'."
+          },
+          {
+            "id": 168,
+            "question": "What is super() keyword?",
+            "options": ["Creates super class", "Calls parent class constructor/methods", "Makes class powerful", "Deletes parent class"],
+            "correctAnswer": 1,
+            "explanation": "super() calls the constructor or methods of the parent class."
+          },
+          {
+            "id": 169,
+            "question": "What are static methods?",
+            "options": ["Methods that don't change", "Methods called on class itself, not instances", "Methods that are private", "Methods that are slow"],
+            "correctAnswer": 1,
+            "explanation": "Static methods are called on the class itself rather than on instances of the class."
+          },
+          {
+            "id": 170,
+            "question": "What are private fields in classes?",
+            "options": ["Fields with no value", "Fields prefixed with # that are only accessible within class", "Fields that are hidden", "Fields that are encrypted"],
+            "correctAnswer": 1,
+            "explanation": "Private fields are prefixed with # and are only accessible within the class that defines them."
+          },
+          {
+            "id": 171,
+            "question": "What is method overriding?",
+            "options": ["Creating multiple methods", "Child class providing different implementation of parent method", "Deleting methods", "Copying methods"],
+            "correctAnswer": 1,
+            "explanation": "Method overriding occurs when a subclass provides a different implementation of a method from its parent class."
+          },
+          {
+            "id": 172,
+            "question": "What is the difference between class and function constructor?",
+            "options": ["No difference", "Class uses 'class' keyword and has cleaner syntax", "Functions are deprecated", "Classes are faster"],
+            "correctAnswer": 1,
+            "explanation": "Classes provide cleaner syntax and additional features compared to function constructors."
+          },
+          {
+            "id": 173,
+            "question": "What are getter and setter in classes?",
+            "options": ["Methods that get/set values", "Special methods for property access/modification", "Private methods", "Static methods"],
+            "correctAnswer": 1,
+            "explanation": "Getters and setters are special methods that provide access to object properties with custom logic."
+          },
+          {
+            "id": 174,
+            "question": "What is module loading?",
+            "options": ["Loading JavaScript files", "Process of importing and executing modules", "Caching modules", "Compiling modules"],
+            "correctAnswer": 1,
+            "explanation": "Module loading is the process by which JavaScript engines import and execute modules."
+          },
+          {
+            "id": 175,
+            "question": "What is tree shaking?",
+            "options": ["Shaking DOM tree", "Removing unused code from bundles", "Optimizing algorithms", "Debugging technique"],
+            "correctAnswer": 1,
+            "explanation": "Tree shaking is the process of removing unused code from JavaScript bundles."
+          },
+          {
+            "id": 176,
+            "question": "What is dynamic import?",
+            "options": ["Automatic imports", "import() function for runtime module loading", "Fast imports", "Cached imports"],
+            "correctAnswer": 1,
+            "explanation": "Dynamic imports use the import() function to load modules at runtime."
+          },
+          {
+            "id": 177,
+            "question": "What is re-export?",
+            "options": ["Exporting again", "Exporting imported modules", "Copying exports", "Deleting exports"],
+            "correctAnswer": 1,
+            "explanation": "Re-export allows you to export something that was imported from another module."
+          },
+          {
+            "id": 178,
+            "question": "What is module namespace?",
+            "options": ["Module name", "Object containing all exports from module", "Module path", "Module version"],
+            "correctAnswer": 1,
+            "explanation": "Module namespace is an object that contains all the exports from a module."
+          },
+          {
+            "id": 179,
+            "question": "What are abstract classes?",
+            "options": ["Classes without implementation", "Not supported in JavaScript", "Classes with all private methods", "Classes that can't be extended"],
+            "correctAnswer": 1,
+            "explanation": "JavaScript doesn't have built-in support for abstract classes, but patterns can simulate them."
+          },
+          {
+            "id": 180,
+            "question": "What is mixin pattern?",
+            "options": ["Mixing arrays", "Way to achieve multiple inheritance", "Class combination", "Method sharing technique"],
+            "correctAnswer": 1,
+            "explanation": "Mixins are a pattern for achieving multiple inheritance by copying properties from multiple sources."
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "title": "JavaScript Performance & Best Practices",
+        "description": "Optimization techniques, debugging, and modern JavaScript practices",
+        "questions": [
+          {
+            "id": 181,
+            "question": "What is lazy loading?",
+            "options": ["Slow loading", "Loading content only when needed", "Loading everything at once", "Caching content"],
+            "correctAnswer": 1,
+            "explanation": "Lazy loading defers the loading of resources until they are actually needed."
+          },
+          {
+            "id": 182,
+            "question": "What is code splitting?",
+            "options": ["Dividing code into multiple files", "Breaking code into smaller, loadable chunks", "Copying code", "Compressing code"],
+            "correctAnswer": 1,
+            "explanation": "Code splitting breaks your code into smaller chunks that can be loaded on demand."
+          },
+          {
+            "id": 183,
+            "question": "What is minification?",
+            "options": ["Making code smaller by removing unnecessary characters", "Making variables smaller", "Reducing functionality", "Shortening file names"],
+            "correctAnswer": 0,
+            "explanation": "Minification reduces file size by removing whitespace, comments, and shortening variable names."
+          },
+          {
+            "id": 184,
+            "question": "What is the purpose of Source Maps?",
+            "options": ["Map file locations", "Map original source code to minified code for debugging", "Map variables", "Map functions"],
+            "correctAnswer": 1,
+            "explanation": "Source maps allow debugging of minified code by mapping it back to original source."
+          },
+          {
+            "id": 185,
+            "question": "What is throttling?",
+            "options": ["Slowing down code", "Limiting function execution rate", "Stopping functions", "Caching function results"],
+            "correctAnswer": 1,
+            "explanation": "Throttling limits the rate at which a function can be executed."
+          },
+          {
+            "id": 186,
+            "question": "What is debouncing?",
+            "options": ["Removing bugs", "Delaying function execution until after delay period", "Function validation", "Error handling"],
+            "correctAnswer": 1,
+            "explanation": "Debouncing delays function execution until after a wait period since the last call."
+          },
+          {
+            "id": 187,
+            "question": "What is memory leak?",
+            "options": ["Memory sharing", "Memory that cannot be garbage collected", "Memory optimization", "Memory allocation"],
+            "correctAnswer": 1,
+            "explanation": "Memory leaks occur when memory that's no longer needed isn't released for reuse."
+          },
+          {
+            "id": 188,
+            "question": "What causes memory leaks in JavaScript?",
+            "options": ["Using variables", "Circular references, global variables, event listeners not removed", "Using functions", "Creating objects"],
+            "correctAnswer": 1,
+            "explanation": "Common causes include circular references, unremoved event listeners, and global variables."
+          },
+          {
+            "id": 189,
+            "question": "What is garbage collection?",
+            "options": ["Removing unused variables", "Automatic memory management", "Code cleanup", "File cleanup"],
+            "correctAnswer": 1,
+            "explanation": "Garbage collection is JavaScript's automatic memory management that frees unused memory."
+          },
+          {
+            "id": 190,
+            "question": "What is the console.time() method for?",
+            "options": ["Getting current time", "Measuring execution time of code blocks", "Setting timers", "Scheduling functions"],
+            "correctAnswer": 1,
+            "explanation": "console.time() and console.timeEnd() measure how long code takes to execute."
+          },
+          {
+            "id": 191,
+            "question": "What is profiling?",
+            "options": ["Creating user profiles", "Analyzing code performance", "Code documentation", "Error tracking"],
+            "correctAnswer": 1,
+            "explanation": "Profiling analyzes code to identify performance bottlenecks and optimization opportunities."
+          },
+          {
+            "id": 192,
+            "question": "What is the performance.now() method?",
+            "options": ["Current date/time", "High-precision timestamp for performance measurement", "Performance score", "System performance"],
+            "correctAnswer": 1,
+            "explanation": "performance.now() provides high-precision timestamps for accurate performance measurement."
+          },
+          {
+            "id": 193,
+            "question": "What is bundling?",
+            "options": ["Grouping variables", "Combining multiple files into single file", "File compression", "Code organization"],
+            "correctAnswer": 1,
+            "explanation": "Bundling combines multiple JavaScript files into a single file for deployment."
+          },
+          {
+            "id": 194,
+            "question": "What is webpack?",
+            "options": ["Web framework", "Module bundler and build tool", "Testing framework", "Database"],
+            "correctAnswer": 1,
+            "explanation": "Webpack is a popular module bundler that processes and bundles web assets."
+          },
+          {
+            "id": 195,
+            "question": "What is linting?",
+            "options": ["Code formatting", "Static code analysis for errors and style issues", "Code compilation", "Code execution"],
+            "correctAnswer": 1,
+            "explanation": "Linting analyzes code for potential errors, bugs, and style issues."
+          },
+          {
+            "id": 196,
+            "question": "What is ESLint?",
+            "options": ["ES6 compiler", "JavaScript linter for code quality", "Testing framework", "Build tool"],
+            "correctAnswer": 1,
+            "explanation": "ESLint is a popular linting tool for identifying and fixing JavaScript code issues."
+          },
+          {
+            "id": 197,
+            "question": "What is Prettier?",
+            "options": ["UI library", "Code formatter", "Color scheme", "Design tool"],
+            "correctAnswer": 1,
+            "explanation": "Prettier is an opinionated code formatter that ensures consistent code style."
+          },
+          {
+            "id": 198,
+            "question": "What is the difference between development and production builds?",
+            "options": ["No difference", "Development includes debugging tools, production is optimized", "Production has more features", "Development is faster"],
+            "correctAnswer": 1,
+            "explanation": "Development builds include debugging tools and are unminified, production builds are optimized."
+          },
+          {
+            "id": 199,
+            "question": "What are environment variables?",
+            "options": ["JavaScript variables", "System variables for configuration", "Function parameters", "Object properties"],
+            "correctAnswer": 1,
+            "explanation": "Environment variables are system-level variables used for application configuration."
+          },
+          {
+            "id": 200,
+            "question": "What is the importance of semantic versioning?",
+            "options": ["Version control", "Meaningful version numbers indicating compatibility", "Code organization", "Performance tracking"],
+            "correctAnswer": 1,
+            "explanation": "Semantic versioning uses version numbers to communicate the nature of changes in software releases."
+          }
+        ]
+      }
+    ]
+  }
+}

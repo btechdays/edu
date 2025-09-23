@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://btechdays.com/sitemap.xml
+
+# Block unnecessary directories
+Disallow: /assets/private/
+Disallow: /*.pdf$
+Disallow: /admin/
+Disallow: /test/
+Disallow: /tmp/
+
+# Allow important directories
+Allow: /assets/images/
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Crawl delay (optional - helps with server load)
+Crawl-delay: 1
