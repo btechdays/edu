@@ -1,0 +1,143 @@
+{
+  "playStoreApps": [
+    {
+      "id": 2,
+      "name": "Code Compiler Mobile",
+      "description": "Compile and run code in multiple programming languages directly on your mobile device. Supports C, C++, Java, Python, JavaScript, and more with syntax highlighting and error detection.",
+      "packageName": "com.btechdays.compiler",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.compiler",
+      "iconUrl": "assets/images/apps/compiler-icon.png",
+      "category": "Developer Tools",
+      "rating": 4.2,
+      "downloads": "5K+",
+      "screenshots": [
+        "assets/images/apps/compiler-screen1.png",
+        "assets/images/apps/compiler-screen2.png",
+        "assets/images/apps/compiler-screen3.png"
+      ],
+      "features": [
+        "Multiple Languages Support",
+        "Syntax Highlighting",
+        "Real-time Compilation",
+        "Code Editor with Autocomplete",
+        "Share Code Snippets",
+        "Offline Mode"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "BTech Notes & Study Guide",
+      "description": "Comprehensive study companion for engineering students. Access notes, tutorials, and practice questions for all major engineering subjects including CS, ECE, Mechanical, and Civil.",
+      "packageName": "com.btechdays.notes",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.notes",
+      "iconUrl": "assets/images/apps/notes-icon.png",
+      "category": "Education",
+      "rating": 4.7,
+      "downloads": "15K+",
+      "screenshots": [
+        "assets/images/apps/notes-screen1.png",
+        "assets/images/apps/notes-screen2.png",
+        "assets/images/apps/notes-screen3.png"
+      ],
+      "features": [
+        "Subject-wise Notes",
+        "Practice Questions",
+        "Video Tutorials",
+        "Offline Reading",
+        "Bookmark Important Topics",
+        "Progress Tracking"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Algorithm Visualizer",
+      "description": "Interactive algorithm visualization tool for computer science students. Understand sorting algorithms, graph algorithms, and data structures through step-by-step animations.",
+      "packageName": "com.btechdays.algorithms",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.algorithms",
+      "iconUrl": "assets/images/apps/algorithm-icon.png",
+      "category": "Education",
+      "rating": 4.3,
+      "downloads": "8K+",
+      "screenshots": [
+        "assets/images/apps/algorithm-screen1.png",
+        "assets/images/apps/algorithm-screen2.png",
+        "assets/images/apps/algorithm-screen3.png"
+      ],
+      "features": [
+        "Algorithm Animations",
+        "Interactive Visualizations",
+        "Code Implementation",
+        "Time Complexity Analysis",
+        "Quiz Mode",
+        "Custom Input Data"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Circuit Simulator",
+      "description": "Design and simulate electronic circuits on your mobile device. Perfect for ECE students to understand circuit behavior, test designs, and learn electronics concepts.",
+      "packageName": "com.btechdays.circuits",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.circuits",
+      "iconUrl": "assets/images/apps/circuit-icon.png",
+      "category": "Utilities",
+      "rating": 4.1,
+      "downloads": "6K+",
+      "screenshots": [
+        "assets/images/apps/circuit-screen1.png",
+        "assets/images/apps/circuit-screen2.png",
+        "assets/images/apps/circuit-screen3.png"
+      ],
+      "features": [
+        "Circuit Design Tools",
+        "Real-time Simulation",
+        "Component Library",
+        "Oscilloscope View",
+        "Export Schematics",
+        "Educational Examples"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Engineering Formulas",
+      "description": "Quick reference app for engineering formulas across all branches. Search, bookmark, and access thousands of formulas with explanations and example calculations.",
+      "packageName": "com.btechdays.formulas",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.formulas",
+      "iconUrl": "assets/images/apps/formula-icon.png",
+      "category": "Productivity",
+      "rating": 4.6,
+      "downloads": "12K+",
+      "screenshots": [
+        "assets/images/apps/formula-screen1.png",
+        "assets/images/apps/formula-screen2.png",
+        "assets/images/apps/formula-screen3.png"
+      ],
+      "features": [
+        "Categorized Formulas",
+        "Search Functionality",
+        "Bookmark Favorites",
+        "Example Calculations",
+        "Unit Conversions",
+        "Offline Access"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Pack Your Bag",
+      "description": "Smart packing assistant for travelers and students. Create customizable packing lists, get weather-based suggestions, and never forget essential items again.",
+      "packageName": "com.btechdays.packyourbag",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.btechdays.packyourbag",
+      "category": "Productivity",
+      "rating": 4.4,
+      "downloads": "8K+",
+      "screenshots": [],
+      "features": [
+        "Smart Packing Lists",
+        "Weather-Based Suggestions",
+        "Trip Categories",
+        "Item Tracking",
+        "Share Lists",
+        "Offline Mode"
+      ]
+    }
+  ]
+}
